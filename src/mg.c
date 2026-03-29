@@ -2,6 +2,29 @@
 #include <stdlib.h>
 #include <time.h>
 
+
+int divisao(int vezes) {
+    int acertos = 0;
+    for (int i = 0; i < vezes; i++) {
+	float n1 = rand() % 500;
+	float n2 = rand() % 5 + 1;
+	    switch ((int)n2) {
+		case 1:
+		    
+		    break;
+		case 2:
+		    break;
+		case 3:
+		    break;
+		case 4:
+		    break;
+		case 5:
+		    break;
+	    }
+    }
+    return acertos;
+}
+
 int operacoesBasicas(int vezes) {
     int acertos = 0; 
     for (int i=0;i<vezes;i++){
@@ -76,7 +99,7 @@ int main(){
 	printf("O que você quer treinar?\n");
 	printf("1 - Operações Básicas\n");
 	printf("2 - Porcentagem\n");
-	printf("3 - Contas Aleatórias\n");
+	printf("3 - Divisão\n");
 	printf("4 - Sair\n");
 	scanf("%d", &escolha);
 	printf("Quantas Vezes? ");
@@ -89,6 +112,7 @@ int main(){
 	    case 2:
 		break;
 	    case 3:
+		acertos = divisao(vezes);
 		break;
 	    case 4:
 		isPlaying = 'n';

@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/mg.dir/link.d CMakeFiles/mg.dir/src/mg.c.o -o mg

@@ -1,0 +1,3 @@
+/home/rafael/projects/mathGod/build/CMakeFiles/mg.dir
+/home/rafael/projects/mathGod/build/CMakeFiles/edit_cache.dir
+/home/rafael/projects/mathGod/build/CMakeFiles/rebuild_cache.dir

@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-
 int divisao(int vezes) {
     int acertos = 0;
     for (int i = 0; i < vezes; i++) {
@@ -97,11 +96,9 @@ int main(){
 	int vezes;
 	int acertos;
 	printf("O que você quer treinar?\n");
-	printf("1 - Operações Básicas\n");
-	printf("2 - Porcentagem\n");
-	printf("3 - Divisão\n");
-	printf("4 - Sair\n");
+	printf("1 - Operações Básicas\n2 - Porcentagem\n3 - Divisão\n4 - Sair");
 	scanf("%d", &escolha);
+	if (escolha == 4) break;
 	printf("Quantas Vezes? ");
 	scanf("%d", &vezes);
 
